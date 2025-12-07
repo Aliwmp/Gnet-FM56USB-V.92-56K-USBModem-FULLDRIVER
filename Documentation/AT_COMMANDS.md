@@ -230,7 +230,7 @@ AT          -> OK
 ATI3        -> Gnet FM56USB V.92 56K USB Modem
 ATZ         -> OK
 ATDT5551234 -> CONNECT 48000
-+++         (wait 1 second before and after)
++++         -> (wait 1 second before and after)
 ATH         -> OK (disconnect)
 ```
 

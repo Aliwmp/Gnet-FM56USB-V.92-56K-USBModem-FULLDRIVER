@@ -41,7 +41,8 @@ install: module
 # Uninstall the module
 uninstall:
 	@echo "Uninstalling $(MODULE_NAME) module..."
-	rm -f $(DESTDIR)/lib/modules/$(shell uname -r)/$(INSTALL_MOD_DIR)/$(MODULE_NAME).ko
+	rm -f /lib/modules/$(shell uname -r)/$(INSTALL_MOD_DIR)/$(MODULE_NAME).ko
+	rm -f /lib/modules/$(shell uname -r)/extra/$(MODULE_NAME).ko
 	depmod -a
 	@echo "Module uninstalled."
 
