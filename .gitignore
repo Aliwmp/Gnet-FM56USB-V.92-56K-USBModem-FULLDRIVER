@@ -1,0 +1,62 @@
+# Build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+.*.cmd
+*.markers
+*.order
+*.symvers
+.tmp_versions/
+Module.symvers
+modules.order
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Log files
+*.log
+
+# Compiled binaries
+*.exe
+*.dll
+*.sys
+*.cat
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Package manager
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test files
+test/
+tests/
+*.test
+
+# Distribution
+dist/
+build/
