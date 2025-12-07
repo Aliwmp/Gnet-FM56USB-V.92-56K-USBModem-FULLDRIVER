@@ -1,5 +1,3 @@
-# Gnet-FM56USB-V.92-56K-USBModem-FULLDRIVER
-Full driver pack for Gnet FM56USB With Lsi Cheap
 # GNET FM56USB / NetComm AM5067 – USB 56K Data/Fax/Voice Modem Drivers
 
 > Original NetComm AM5067 / GNET FM56USB 56K USB Modem drivers (Data / Fax / Voice) collected and re-packaged so that nobody has to hunt them down again.
